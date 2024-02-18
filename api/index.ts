@@ -31,7 +31,7 @@ Bun.serve({
         prompt = body.prompt;
 
         if (!prompt)
-          return new Response('Pass { "prompt": "Your prompt here" } in body');
+          return new Response('pass { "prompt": "Your prompt here" } in body');
       }
 
       // Validate inputs against schema
